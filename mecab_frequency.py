@@ -1,3 +1,4 @@
+# Made by Mose Gu 'http://cpslab.skku.edu/people-Moses-Gu.php'
 #this code is using after mecab.py 
 #this code is to extract frequency of nouns
 
