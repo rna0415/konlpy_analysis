@@ -1,3 +1,4 @@
+# Made by Mose Gu 'http://cpslab.skku.edu/people-Moses-Gu.php'
 #this code is to extract nouns from text file
 
 from konlpy.tag import Hannanum
