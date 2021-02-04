@@ -1,17 +1,19 @@
+#this code is to extract nouns from text file
+
 from konlpy.tag import Hannanum
 from eunjeon import Mecab
 hannanum = Hannanum()
 mecab = Mecab() 
 
 
-filepath = "./경로.확장자"
+filepath = ("./경로.확장자") #directory of word or text file
 f = open(filepath,'r',encoding='utf-8')
 rd = f.read()
 y = mecab.nouns(rd)
 # print(rd)
 
 
-f = open("./경로2.확장자",'w',encoding='utf-8')
+f = open("./경로2.확장자",'w',encoding='utf-8') #save path
 frequency = {}
 for i in y:
     print(i)
